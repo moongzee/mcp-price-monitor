@@ -1,0 +1,12 @@
+[project]
+name = "price_monitor_mcp"
+version = "0.1.0"
+description = "Price Monitor MCP Server"
+requires-python = ">=3.10" 
+dependencies = [
+    "firecrawl>=2.1.2",
+    "mcp[cli]",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+]
