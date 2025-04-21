@@ -26,8 +26,9 @@
 price_monitor_mcp/
 ├── src/
 │   └── price_monitor_mcp.py   # MCP 서버 메인 코드
-├── README.md                  # (이 파일)
-└── ...
+├── mcp_client.py              # MCP 클라이언트 코드
+├── README.md                  
+└── .env                       # 환경변수
 ```
 
 ---
