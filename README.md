@@ -1,4 +1,5 @@
 # Price Monitor MCP 서버
+[![smithery badge](https://smithery.ai/badge/@moongzee/mcp-price-monitor)](https://smithery.ai/server/@moongzee/mcp-price-monitor)
 
 ## 개요
 
@@ -34,6 +35,14 @@ price_monitor_mcp/
 ---
 
 ## 실행 방법
+
+### Installing via Smithery
+
+To install Price Monitor Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@moongzee/mcp-price-monitor):
+
+```bash
+npx -y @smithery/cli install @moongzee/mcp-price-monitor --client claude
+```
 
 ### 1. 가상환경 준비 및 패키지 설치
 
